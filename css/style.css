@@ -1,9 +1,9 @@
 body {
-    background: url(../bc2.jpg) no-repeat;
+    background: url(../images/bc2.jpg) no-repeat;
     background-size: 1550px 1485px;
    }
    .circle {
-    background: url(../mycat1.jpg);
+    background: url(../images/mycat1.jpg);
     border-radius: 100%;
     width: 100px;
     height: 100px;
