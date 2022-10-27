@@ -1,2 +1,3 @@
 # PORTFOLIO
-This is my portfolio
+This is my simple portfolio
+I am going to modernize my site soon
