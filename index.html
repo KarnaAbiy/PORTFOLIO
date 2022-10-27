@@ -3,22 +3,23 @@
     <head>
         <meta charset="utf-8">
         <link href="css/style.css" type="text/css" rel="stylesheet">
-        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title><font size="5">PORTFOLIO</font></title>
         <marquee behavior="alternate" direction="left" direction="right">
             <font color="black">Wellcome friend. Abiy wishes you a good day.</font>
           </marquee>
-          
-        
+          <style>
+            .text {
+             text-align:  center;
+            }
+          </style>    
     </head>
     <body>
+      <div class="text">
         <h1><font size="8" color="white">PORTFOLIO</font></h1>
-        <div class="clicker">
-          
-          <button id="button">Click me</button>
-          <p>Score: <span id="score">0</span></p>
-        </div>
-        <p>
+        <h1><font size="5" color="white">Clicker</font></h1>
+        <button onclick="changeColor()" class="textt" id="button">Click here! </button>
+        <p>Clicks: <span id="score">0</span></p>
             <img src="./images/myphoto.jpg" width="190" height="250">   
             <img src="./images/trabi.jpg" width="180" height="220">
             <img src="./images/sab.jpg" width="235" height="220">
@@ -46,8 +47,15 @@
         <p><img src="./images/pjch.jpg" width="350" height="220"></p>
         <h7><font size="5" color="white">CONTACT NUMBER</font></h7>    
         <p><font color="white">+996507665540</font></p>
-
+        <div class="container">
+          <h2>Meme API</h2>
+          <div class="card">
+            <img src="./images/btun.jpg" alt="Meme" class="img">
+          </div>
+          <button class="btn" type="button">Random Meme</button>
+        </div>
+      </div>
       <script src="script.js"></script>
+      <script src="fetshed.js"></script>
     </body>   
 </html>
-
